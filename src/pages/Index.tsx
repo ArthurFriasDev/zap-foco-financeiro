@@ -295,50 +295,14 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <Card className="border-2 border-border">
+          <div className="max-w-md mx-auto">
+            <Card className="border-2 border-primary">
               <CardHeader className="text-center">
-                <CardTitle className="text-2xl">Pessoal</CardTitle>
+                <CardTitle className="text-2xl">Plano Único</CardTitle>
                 <div className="text-4xl font-bold mt-4">
                   R$ 19<span className="text-lg font-normal text-muted-foreground">/mês</span>
                 </div>
-                <CardDescription>Perfeito para controle pessoal</CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="space-y-3">
-                  <div className="flex items-center space-x-2">
-                    <CheckCircle className="h-5 w-5 text-green-500" />
-                    <span>Até 200 registros/mês</span>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <CheckCircle className="h-5 w-5 text-green-500" />
-                    <span>Relatórios básicos</span>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <CheckCircle className="h-5 w-5 text-green-500" />
-                    <span>Alertas de orçamento</span>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <CheckCircle className="h-5 w-5 text-green-500" />
-                    <span>Suporte por email</span>
-                  </div>
-                </div>
-                <Button className="w-full mt-6" variant="outline">
-                  Assinar Agora
-                </Button>
-              </CardContent>
-            </Card>
-
-            <Card className="border-2 border-primary relative overflow-hidden">
-              <div className="absolute top-0 right-0 bg-gradient-to-r from-primary to-accent text-primary-foreground px-3 py-1 text-sm font-medium">
-                Mais Popular
-              </div>
-              <CardHeader className="text-center">
-                <CardTitle className="text-2xl">Profissional</CardTitle>
-                <div className="text-4xl font-bold mt-4">
-                  R$ 49<span className="text-lg font-normal text-muted-foreground">/mês</span>
-                </div>
-                <CardDescription>Para quem quer controle total</CardDescription>
+                <CardDescription>Controle completo dos seus gastos</CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="space-y-3">
@@ -348,7 +312,11 @@ const Index = () => {
                   </div>
                   <div className="flex items-center space-x-2">
                     <CheckCircle className="h-5 w-5 text-green-500" />
-                    <span>Relatórios avançados</span>
+                    <span>Relatórios completos</span>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <CheckCircle className="h-5 w-5 text-green-500" />
+                    <span>Alertas de orçamento</span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <CheckCircle className="h-5 w-5 text-green-500" />
@@ -360,7 +328,7 @@ const Index = () => {
                   </div>
                   <div className="flex items-center space-x-2">
                     <CheckCircle className="h-5 w-5 text-green-500" />
-                    <span>Suporte prioritário</span>
+                    <span>Suporte completo</span>
                   </div>
                 </div>
                 <Button className="w-full mt-6 bg-gradient-to-r from-primary to-accent hover:opacity-90 transition-opacity">
