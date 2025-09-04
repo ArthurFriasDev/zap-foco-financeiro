@@ -12,7 +12,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <MessageCircle className="h-8 w-8 text-primary" />
-            <span className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+            <span className="text-2xl font-bold text-primary">
               GastosBot
             </span>
           </div>
@@ -32,7 +32,7 @@ const Index = () => {
                   🚀 Controle Inteligente
                 </Badge>
                 <h1 className="text-5xl md:text-6xl font-bold leading-tight">
-                  <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+                  <span className="text-primary">
                     Controle de Gastos
                   </span>
                   <br />
@@ -409,7 +409,7 @@ const Index = () => {
           <div className="text-center space-y-4">
             <div className="flex items-center justify-center space-x-2">
               <MessageCircle className="h-8 w-8 text-primary" />
-              <span className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+              <span className="text-2xl font-bold text-primary">
                 GastosBot
               </span>
             </div>
