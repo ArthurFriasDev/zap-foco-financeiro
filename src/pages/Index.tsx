@@ -17,7 +17,7 @@ const Index = () => {
             </span>
           </div>
           <Button className="bg-gradient-to-r from-primary to-accent hover:opacity-90 transition-opacity">
-            Teste Grátis
+            Contratar Agora
           </Button>
         </div>
       </header>
@@ -64,7 +64,7 @@ const Index = () => {
                 </div>
                 <div className="flex items-center space-x-1">
                   <CheckCircle className="h-4 w-4 text-green-500" />
-                  <span>Teste grátis 7 dias</span>
+                  <span>Configuração rápida</span>
                 </div>
                 <div className="flex items-center space-x-1">
                   <CheckCircle className="h-4 w-4 text-green-500" />
@@ -324,7 +324,7 @@ const Index = () => {
                   </div>
                 </div>
                 <Button className="w-full mt-6" variant="outline">
-                  Começar Teste Grátis
+                  Assinar Agora
                 </Button>
               </CardContent>
             </Card>
@@ -364,7 +364,7 @@ const Index = () => {
                   </div>
                 </div>
                 <Button className="w-full mt-6 bg-gradient-to-r from-primary to-accent hover:opacity-90 transition-opacity">
-                  Começar Teste Grátis
+                  Assinar Agora
                 </Button>
               </CardContent>
             </Card>
@@ -380,7 +380,7 @@ const Index = () => {
               Pronto para ter controle total dos seus gastos?
             </h2>
             <p className="text-xl text-primary-foreground/90 max-w-2xl mx-auto">
-              Comece seu teste gratuito de 7 dias agora e veja como é fácil organizar suas finanças.
+              Contrate agora e transforme a forma como você controla suas finanças.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
