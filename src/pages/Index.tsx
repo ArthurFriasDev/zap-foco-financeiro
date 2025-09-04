@@ -382,21 +382,14 @@ const Index = () => {
             <p className="text-xl text-primary-foreground/90 max-w-2xl mx-auto">
               Contrate agora e transforme a forma como você controla suas finanças.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex justify-center">
               <Button 
                 size="lg" 
                 variant="secondary"
                 className="text-lg px-8 py-6 bg-background text-foreground hover:bg-background/90"
               >
                 <MessageCircle className="mr-2 h-5 w-5" />
-                Iniciar no WhatsApp
-              </Button>
-              <Button 
-                size="lg" 
-                variant="outline"
-                className="text-lg px-8 py-6 border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10"
-              >
-                Agendar Demonstração
+                Contratar Agora
               </Button>
             </div>
           </div>
